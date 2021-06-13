@@ -2,12 +2,12 @@ version: 0.0
 os: windows
 files:
   - source: \
-    destination: C:\Users\Administrator\Downloads\Command
+    destination: C:\Users\Administrator\Downloads\Command\pkg
 hooks:
   BeforeInstall:
   AfterInstall:
   ApplicationStart:
-    - location: start.ps
+    - location: ..\start.ps
       timeout: 300
       runas: Administrator
   ApplicationStop:
