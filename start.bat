@@ -1,1 +1,1 @@
-Powershell.exe -File startps.ps1
+Powershell.exe -File startps.ps1 -NoNewWindow -PassThru
