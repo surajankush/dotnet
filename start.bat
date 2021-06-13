@@ -1,1 +1,1 @@
-C:\Program Files\dotnet\dotnet watch run
+"C:\Program Files\dotnet\dotnet" watch run
