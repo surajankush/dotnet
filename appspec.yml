@@ -1,0 +1,12 @@
+version: 0.0
+os: windows
+files:
+  - source: .
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStart:
+    - location: C:\Users\Administrator\Downloads\Command\start.ps
+      timeout: 300
+      runas: Administrator
+  ApplicationStop:
