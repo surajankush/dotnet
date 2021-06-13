@@ -4,7 +4,7 @@ hooks:
   BeforeInstall:
   AfterInstall:
   ApplicationStart:
-    - location: C:\Users\Administrator\Downloads\Command\start.ps
+    - location: C:/Users/Administrator/Downloads/Command/start.ps
       timeout: 300
       runas: Administrator
   ApplicationStop:
