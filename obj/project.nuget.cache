@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "utcPkJbXbipPgqsaFdWjaALxxuCbr54/5JFhEWuug9a8ndrWKV35uZFf0RO9Jydy5ud+c2LQvxtYndp9V82hFg==",
+  "dgSpecHash": "DlUQQoAywNS/eJhuvfgoqgpjnKNgcXJ17jGTKSH2vNhttsjeWjacM8DELic6o15fgK01+eEvOLvgJbleyWgpxQ==",
   "success": true,
   "projectFilePath": "D:\\Work\\dotnet\\dotnet\\myWebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\suraj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.7\\microsoft.netcore.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\suraj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\suraj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.win-x64.5.0.7.nupkg.sha512"
+  ],
   "logs": []
 }
