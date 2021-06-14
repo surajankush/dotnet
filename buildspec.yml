@@ -7,14 +7,13 @@ phases:
     build:
         commands:
             - dotnet --info
-            - dotnet build 
-            - dotnet publish
+            - dotnet publish -c Release -r win10-x64
             - cp appspec.yml bin/Debug/netcoreapp3.1
-            - cp start.bat bin/Debug/netcoreapp3.1
+            - cp start.bat bin/Debug/netcoreapp3.1/win10-x64
             - zip -r output.zip bin
             - pwd
             - ls
 artifacts:
-    base-directory: bin/Debug/netcoreapp3.1
+    base-directory: bin/Debug/netcoreapp3.1/win10-x64
     files:
         - '**/*'
