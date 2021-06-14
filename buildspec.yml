@@ -8,7 +8,7 @@ phases:
         commands:
             - dotnet --info
             - dotnet build 
-            - zip -r filename.zip -i /codebuild/output/src279334977/src/bin/Debug/netcoreapp3.1
+            - ls
 artifacts:
     files:
-        - filename.zip
+        - /codebuild/output/src279334977/src/bin/Debug/netcoreapp3.1/*.*
