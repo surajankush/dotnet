@@ -6,5 +6,6 @@ phases:
             dotnet: 3.0
     build:
         commands:
+            - dotnet --info
             - dotnet build 
             - dotnet publish
