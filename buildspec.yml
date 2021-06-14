@@ -9,9 +9,11 @@ phases:
             - dotnet --info
             - dotnet build 
             - dotnet publish
+            - cp appspec.yml bin/Debug/netcoreapp3.1
             - zip -r output.zip bin
             - pwd
             - ls
 artifacts:
+    base-directory: bin/Debug/netcoreapp3.1
     files:
-        - output.zip
+        - '**/*'
