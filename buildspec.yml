@@ -8,7 +8,8 @@ phases:
         commands:
             - dotnet --info
             - dotnet build 
+            - dotnet publish
             - ls
 artifacts:
     files:
-        - /codebuild/output/src279334977/src/bin/Debug/netcoreapp3.1/*.*
+        - bin\Debug
