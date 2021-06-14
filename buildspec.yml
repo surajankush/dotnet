@@ -9,7 +9,7 @@ phases:
             - dotnet --info
             - dotnet build 
             - dotnet publish
-            - ls bin
+            - zip -r output.zip bin
 artifacts:
     files:
-        - bin/Debug
+        - output.zip
