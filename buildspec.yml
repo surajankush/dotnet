@@ -9,7 +9,7 @@ phases:
             - dotnet --info
             - dotnet build 
             - dotnet publish
-            - ls
+            - ls bin
 artifacts:
     files:
         - bin/Debug
