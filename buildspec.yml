@@ -10,6 +10,8 @@ phases:
             - dotnet build 
             - dotnet publish
             - zip -r output.zip bin
+            - pwd
+            - ls
 artifacts:
     files:
         - output.zip
