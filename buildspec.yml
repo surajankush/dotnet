@@ -8,7 +8,7 @@ phases:
         commands:
             - dotnet --info
             - dotnet publish -c Release -r win10-x64
-            - cp appspec.yml bin/Release/netcoreapp3.1
+            - cp appspec.yml bin/Release/netcoreapp3.1/win10-x64
             - cp start.bat bin/Release/netcoreapp3.1/win10-x64
             - zip -r output.zip bin
             - pwd
